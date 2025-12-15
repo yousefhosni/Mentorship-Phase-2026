@@ -1,0 +1,66 @@
+{
+    "books": {
+        "b1": {
+            "book_id": "b1",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "total_copies": 3,
+            "available_copies": 2
+        },
+        "b2": {
+            "book_id": "b2",
+            "title": "1984",
+            "author": "George Orwell",
+            "total_copies": 12,
+            "available_copies": 11
+        },
+        "b3": {
+            "book_id": "b3",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "total_copies": 2,
+            "available_copies": 2
+        },
+        "43a88c78-17f0-4d17-b433-5c4a4f3a7aa8": {
+            "book_id": "43a88c78-17f0-4d17-b433-5c4a4f3a7aa8",
+            "title": "Clean code",
+            "author": "fda",
+            "total_copies": 11,
+            "available_copies": 9
+        }
+    },
+    "users": {
+        "u1": {
+            "user_id": "u1",
+            "name": "Alice",
+            "borrowed_books": [
+                "81b1380a-2fda-4925-bb97-5848c831e7ca"
+            ]
+        },
+        "u2": {
+            "user_id": "u2",
+            "name": "Bob",
+            "borrowed_books": [
+                "43a88c78-17f0-4d17-b433-5c4a4f3a7aa8"
+            ]
+        },
+        "deda9c1f-ba80-4eeb-bdc4-8947e9940614": {
+            "user_id": "deda9c1f-ba80-4eeb-bdc4-8947e9940614",
+            "name": "hamza",
+            "borrowed_books": [
+                "43a88c78-17f0-4d17-b433-5c4a4f3a7aa8",
+                "b2"
+            ]
+        },
+        "1f491038-0b08-4b95-aaf2-8f27de14bb11": {
+            "user_id": "1f491038-0b08-4b95-aaf2-8f27de14bb11",
+            "name": "mohamed",
+            "borrowed_books": []
+        },
+        "59f78420-dac9-4550-8208-ae0f2ada947b": {
+            "user_id": "59f78420-dac9-4550-8208-ae0f2ada947b",
+            "name": "",
+            "borrowed_books": []
+        }
+    }
+}
